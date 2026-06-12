@@ -1,0 +1,23 @@
+RAM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+EEPROM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                                          Register  Size
+------------------------------------------------------------------------------------------------
+
+FLASH Allocation [words]
+Function                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+main                                                                              0x0006D     50
+KernelShift                                                                       0x0009F     40
+BitSerial_Send                                                                    0x000C7     33
+LCD_init                                                                          0x000E8     20
+lcd_putchar                                                                       0x000FC     10
+lcd_gotoxy                                                                        0x00106     21
+lcd_Clear                                                                         0x0011B      2
+lcd_puts                                                                          0x0011D     17
