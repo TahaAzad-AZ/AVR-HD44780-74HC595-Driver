@@ -1,5 +1,0 @@
-VERSION:3 SOURCE_TIMESTAMP:5CCC95F3
-NODE:I LEVEL:0 LINE:1 "C:\cvavr\inc\mega32.h"
-NODE:I LEVEL:0 LINE:2 "C:\cvavr\inc\delay.h"
-NODE:I LEVEL:0 LINE:3 "C:\Users\mmddino\Desktop\CodeVisionAVR-Project-Files\lcd_serial.h"
-NODE:F LEVEL:0 LINE:5 "main(void)"
