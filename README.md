@@ -12,12 +12,11 @@ This project is a custom hardware driver to interface an HD44780 Character LCD w
 
 All pin configurations, wiring details, and default connections between the MCU, Shift Register, and LCD are fully documented in the Hardware section of this file.
 
-![Hardware Circuit]([./Hardware/Hardware_Picture.png](https://github.com/TahaAzad-AZ/AVR-HD44780-74HC595-Driver/blob/main/Hardware/Hardware%20Picture.png))
+<img width="761" height="1009" alt="Hardware Picture" src="https://github.com/user-attachments/assets/8d14203f-9666-457a-a36c-bc5967d3a40d" />
 
 ## ⚠️ Important Warning
 
 This driver functions using the standard delay functions (such as delay_us and delay_ms) for its timing control. If you port this driver to another compiler, ensure your development environment supports these delay routines or update them according to your compiler syntax to maintain proper LCD initialization timings.
-
 
 ## 📌 Version Information
 
