@@ -11,7 +11,8 @@ This project is a custom hardware driver to interface an HD44780 Character LCD w
 ## 🔌 Hardware Connections
 
 All pin configurations, wiring details, and default connections between the MCU, Shift Register, and LCD are fully documented in the Hardware section of this file.
-![Hardware Circuit](Hardware/Hardware Picture.png)
+
+![Hardware Circuit](Hardware/Hardware_Picture.png)
 
 ## ⚠️ Important Warning
 
