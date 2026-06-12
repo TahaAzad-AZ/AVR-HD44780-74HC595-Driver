@@ -23,3 +23,10 @@ This driver functions using the standard delay functions (such as delay_us and d
 * **👤 Author:** Taha Azad
 * **💎 Brand:** AZ Electronic
 * **📢 Telegram Channel:** [Join AZ Electronic](https://t.me/AZEletronic)
+
+---
+
+## 📌 Version Information
+
+* **Current Version:** v1.0.0
+* **Description:** null
