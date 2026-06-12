@@ -1,0 +1,5 @@
+main DSTACK_USAGE:0 DSTACK_LEVEL:0 FILE:"CodeVisionAVR-Project-Files.c" LINE:5
+lcd_puts DSTACK_USAGE:2 DSTACK_LEVEL:2 FILE:"lcd_serial.c" LINE:123
+lcd_putchar DSTACK_USAGE:1 DSTACK_LEVEL:3 FILE:"lcd_serial.c" LINE:101
+BitSerial_Send DSTACK_USAGE:2 DSTACK_LEVEL:5 FILE:"lcd_serial.c" LINE:33
+KernelShift DSTACK_USAGE:3 DSTACK_LEVEL:8 FILE:"lcd_serial.c" LINE:5

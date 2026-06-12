@@ -1,0 +1,25 @@
+## Hardware Configuration and Wiring
+
+This driver uses a 74HC595 Shift Register to connect the ATmega32 to an HD44780 Character LCD in 4-bit mode. This changes the required pins from 7 down to only 3 pins.
+
+### Microcontroller to 74HC595 Connections
+These pins are defined in the lcd_serial.h file and can be changed to any other pins. By default, they use PORTC:
+* PC5 is connected to SH_CP (Shift Clock)
+* PC6 is connected to DS (Serial Data)
+* PC7 is connected to ST_CP (Latch Clock)
+
+### 74HC595 to HD44780 LCD Connections
+The output pins of the shift register are connected to the LCD control and data lines like this:
+* Q0 is connected to RS
+* Q1 is connected to E
+* Q2 is connected to D7
+* Q3 is connected to D6
+* Q4 is connected to D5
+* Q5 is connected to D4
+
+Note: LCD pins D0, D1, D2, and D3 are not connected because the LCD works in 4-bit mode. The LCD R/W pin must be connected directly to GND.
+
+### 74HC595 Control Pins
+To make the shift register work correctly, these two pins must be connected to fixed voltages:
+* OE pin must be connected directly to GND
+* MR pin must be connected directly to VCC
