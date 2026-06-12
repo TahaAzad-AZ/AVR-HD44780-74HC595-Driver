@@ -16,6 +16,12 @@ All pin configurations, wiring details, and default connections between the MCU,
 
 This driver functions using the standard delay functions (such as delay_us and delay_ms) for its timing control. If you port this driver to another compiler, ensure your development environment supports these delay routines or update them according to your compiler syntax to maintain proper LCD initialization timings.
 
+
+## 📌 Version Information
+
+* **Current Version:** v1.0.0
+* **Description:** null
+
 ---
 
 ## 👨‍💻 Developed By
@@ -23,10 +29,3 @@ This driver functions using the standard delay functions (such as delay_us and d
 * **👤 Author:** Taha Azad
 * **💎 Brand:** AZ Electronic
 * **📢 Telegram Channel:** [Join AZ Electronic](https://t.me/AZEletronic)
-
----
-
-## 📌 Version Information
-
-* **Current Version:** v1.0.0
-* **Description:** null
